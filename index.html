@@ -4,23 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>BMS Poribohon</title>
 </head>
 
 <body>
     <!-- this is navber. start from here -->
-    <nav>
+    <nav class="flex justify-between">
         <div>
             <h1>BMS Poribohon</h1>
         </div>
-        <div>
-            <ul>
+        <div class="w-4/12 p-5 bg-slate-500">
+            <ul class="flex justify-between">
                 <li>Home</li>
                 <li>About</li>
                 <li>Destination</li>
                 <li>Search</li>
             </ul>
-        </div>
+        </div >
         <div>
             <button>Bus <img src="/asset/image/bus-icon.png" alt=""></button>
         </div>
@@ -164,10 +165,19 @@
         <section class="seat-selector">
             <div class="left-select-seat">
 
-            </div>
-            <div class="right-info-selected-seat">
-
-                
+                <div>
+                    <h1>Select Your seat</h1>
+                    <div>
+                        <div>
+                            <img src="/asset/image/seat-gray.png" alt="">
+                            available
+                        </div>
+                        <div>
+                            <img src="/asset/image/seat-green-filled.png" alt="">
+                            <span>0</span>selected
+                        </div>
+                    </div>
+                </div>
 
                 <!-- seat Button -->
                 <div style="display: grid; grid-template-columns: repeat(4, auto); gap: 10px;">
@@ -232,6 +242,58 @@
                     <div>J4</div>
                 </div>
 
+            </div>
+            <!-- this section is selected area calculation and form -->
+            <div class="right-info-selected-seat">
+                <h1>Your seat details</h1>
+                <div>
+                    <div>
+                        <div>
+                            <span>Seat <span>2</span></span>
+                            <span>Class</span>
+                            <span>Price</span>
+                        </div>
+
+                        <div>
+                            <span>C2</span>
+                            <span>Economy</span>
+                            <span>550</span>
+                        </div>
+                        <div>
+                            <span>C2</span>
+                            <span>Economy</span>
+                            <span>550</span>
+                        </div>
+
+                        <div>
+                            <span>Total Price</span>
+                            <span>BDT 1100</span>
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Have any coupon?">
+                            <button>Apply</button>
+                        </div>
+
+                        <div>
+                            Grand Total: BDT 1100
+                        </div>
+                    </div>
+                    <div>
+                        <form>
+                            <label for="name">Passenger Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter full name" required>
+
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+
+                            <label for="email">Email ID</label>
+                            <input type="email" id="email" name="email" placeholder="Enter email address" required>
+
+                            <button type="submit">Next</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
