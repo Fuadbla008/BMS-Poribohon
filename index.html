@@ -116,36 +116,39 @@
     <main class="bg-[#f7f8f8] rounded-t-3xl">
         <section class="calculateHeader flex flex-col items-center">
             <h1 class="font-bold mt-10 text-4xl">BMS Poribohon</h1>
-            <p class="font-serif mt-3 text-lg">Yes, you can run unit tests and view the results directly within the app. The integrated
+            <p class="font-serif mt-3 text-lg">Yes, you can run unit tests and view the results directly within the app.
+                The integrated
                 testing features allow for a streamlined</p>
         </section>
 
         <!-- route, seat, and seat price include -->
         <section class="seatDetails flex h-[418px] w-[1170px] bg-[#ffffff] radius24">
             <div class="w-7/12 p-[32px]">
-                <div class="detailsandseat">
-                    <div class="details">
+                <div class="detailsandseat flex ">
+                    <div class="details flex p-5 gap-5">
                         <img src="/asset/image/bus-logo.png" alt="">
-                        <div>
+                        <div class="">
                             <h1>BMS Poribohon</h1>
                             <p>B9A5 AC Buss</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="flex min-w-40 font-medium size-10">
                         <img src="/asset/image/seat-green.png" alt="">
-                        40 seat left
+                        <span>40 seat left</span>
                     </div>
                 </div>
-                <div class="route-details">
-                    <div>
+                <div class="route-details bg-[#f7f8f8] padding-32 radius12">
+                    <div class="flex justify-between m-5">
                         <p>Route</p>
                         <p>Rangpur-Dhaka</p>
                     </div>
-                    <div>
+                    <hr>
+                    <div class="flex justify-between m-5">
                         <p>Departure Time</p>
                         <p>9:00 PM</p>
                     </div>
-                    <div>
+                    <hr>
+                    <div class="flex justify-between m-5">
                         <div>Bording Point - Luxmipur</div>
                         <div>Dropping Point - Bogura</div>
                         <div>Est. Time - 11 Hour</div>
@@ -156,11 +159,13 @@
                 <img src="/asset/image/info-devider.png" alt="">
             </div>
 
-            <div>
-                <img src="/asset/image/fare.png" alt="">
-                <div>
-                    <h2>550 Taka</h2>
-                    <h4>Per Seat</h4>
+            <div class="flex ">
+                <div class="w-[133px] h-[155px]">
+                    <img src="/asset/image/fare.png" alt="">
+                    <div>
+                        <h2>550 Taka</h2>
+                        <h4>Per Seat</h4>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,6 +1,13 @@
 .radius24{
     border-radius: 24px;
 }
+
+.padding-32{
+    padding: 32px;
+}
+.radius12{
+    border-radius: 12px;
+}
 .click-div {
       width: 200px;
       height: 100px;
