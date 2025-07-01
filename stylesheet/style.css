@@ -17,8 +17,18 @@
     display: flex;
     align-items: center;
 }
-.new-align{
-    background: #000;
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.fontsize{
+    font-size: 20px;
+}
+.mygap{
+    margin-bottom: 50px;
+}
+.mybgash{
+    background-color: #f7f8f8;
 }
 .click-div {
       width: 200px;
