@@ -8,6 +8,15 @@
 .radius12{
     border-radius: 12px;
 }
+.block{
+    height: 56px;
+    width: 110px;
+    border-radius: 12px;
+    background-color: #f7f8f8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 .click-div {
       width: 200px;
       height: 100px;
