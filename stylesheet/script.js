@@ -11,12 +11,6 @@ divs.forEach(div => {
 
         totalPriceCalculate();
         
-        // const price = document.querySelectorAll('.appendPrice');
-        // let totalPrice = 0;
-        // price.forEach(price => {
-        //     totalPrice += parseInt(price.innerText);
-
-        // });
     });
 });
 

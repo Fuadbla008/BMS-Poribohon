@@ -39,5 +39,7 @@ function totalPriceCalculate() {
 
         const setTotalPrice = document.getElementById('totalPrice');
         setTotalPrice.innerText = totalPrice;
+        const setGrandTotal = document.getElementById('grandTotal');
+        setGrandTotal.innerText = totalPrice;
     });
 }
