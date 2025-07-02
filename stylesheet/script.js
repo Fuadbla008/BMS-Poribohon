@@ -1,4 +1,12 @@
-const getIdByText = document.getElementById('seatClickArea')
-getIdByText.addEventListener('click',function(event){
-console.log(event)
-})
+
+const divs = document.querySelectorAll('.block');
+
+  divs.forEach(div => {
+    div.addEventListener('click', () => {
+      const divvalue = div.innerHTML;
+    //   console.log(divvalue);
+    return divvalue;
+    });
+  });
+
+console.log(divvalue);
