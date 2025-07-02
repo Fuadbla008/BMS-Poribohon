@@ -29,3 +29,15 @@ function appendDivById(id, idForContainer) {
     document.getElementById(idForContainer).appendChild(newDiv);
 
 }
+
+function totalPriceCalculate() {
+    const price = document.querySelectorAll('.appendPrice');
+    let totalPrice = 0;
+    price.forEach(price => {
+        totalPrice += parseInt(price.innerText);
+        console.log(totalPrice);
+
+        const setTotalPrice = document.getElementById('totalPrice');
+        setTotalPrice.innerText = totalPrice;
+    });
+}
