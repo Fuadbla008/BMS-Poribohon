@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/style.css">
     <title>BMS Poribohon</title>
 </head>
 
@@ -23,10 +23,12 @@
                 <li>Search</li>
             </ul>
         </div>
-        <div class="flex w-[130px] h-[56px] align-middle justify-center click-div ">
-            <img src="/asset/image/bus-icon.png" alt="" class="">
-            <span class="font-bold text-2xl"> Bus</span>
-        </div>
+        <a href="#seatDetailsFullSection">
+            <div class="flex w-[130px] h-[56px] align-middle justify-center click-div ">
+                <img src="/asset/image/bus-icon.png" alt="" class="">
+                <span class="font-bold text-2xl">Bus</span>
+            </div>
+        </a>
     </nav>
 
     <!-- section body. include banner and coupon offer -->
@@ -171,7 +173,7 @@
         </section>
 
         <!-- this section is seat selector -->
-        <section class="seat-selector flex-between bg-[#ffffff]">
+        <section id="seatDetailsFullSection" class="seat-selector flex-between bg-[#ffffff]">
             <div class="left-select-seat w-1/2 p-16">
 
                 <div class="flex flex-col">
@@ -263,15 +265,8 @@
                             <span>Price</span>
                         </div>
                         <hr>
-                        <div class="flex-between">
-                            <span>C2</span>
-                            <span>Economy</span>
-                            <span>550</span>
-                        </div>
-                        <div class="flex-between">
-                            <span>C2</span>
-                            <span>Economy</span>
-                            <span>550</span>
+                        <div class="container">
+
                         </div>
                         <hr>
                         <div class="flex-between">
@@ -306,6 +301,10 @@
             </div>
         </section>
     </main>
+
+    <!-- include script for this file -->
+    <script src="/stylesheet/script.js"></script>
+    <script src="/stylesheet/reuseable.function.js"></script>
 </body>
 
 </html>
