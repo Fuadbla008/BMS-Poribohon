@@ -2,7 +2,12 @@ function setTextById(id, data){
     const text = document.getElementById(id);
     text.innerText = data;
 }
-
+function getInputValueById(id) {
+    const input = document.getElementById(id);
+    const value = input.value;
+    input.value = '';
+    return value;
+}
 function setBgColorById(id, color){
     const element = document.getElementById(id);
     element.style.backgroundColor = color;
@@ -35,11 +40,16 @@ function totalPriceCalculate() {
     let totalPrice = 0;
     price.forEach(price => {
         totalPrice += parseInt(price.innerText);
-        console.log(totalPrice);
 
         const setTotalPrice = document.getElementById('totalPrice');
         setTotalPrice.innerText = totalPrice;
         const setGrandTotal = document.getElementById('grandTotal');
         setGrandTotal.innerText = totalPrice;
     });
+}
+
+function elementById(id) {
+    const element = document.getElementById(id)
+    const value = parseInt(element.innerText);
+    return value;
 }

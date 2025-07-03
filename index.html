@@ -136,7 +136,7 @@
                     </div>
                     <div class="flex min-w-40 font-medium size-10">
                         <img src="./asset/image/seat-green.png" alt="">
-                        <span>40 seat left</span>
+                        <span><span id="availableSeat">40</span> seat left</span>
                     </div>
                 </div>
                 <div class="route-details bg-[#f7f8f8] padding-32 radius12">
@@ -265,18 +265,19 @@
                             <span>Price</span>
                         </div>
                         <hr>
-                        <div id="appendchild" class="container">
+                        <div id="appendchild" class="container min-h-40">
+                            <!-- Selected seats will be appended here -->
 
                         </div>
                         <hr>
                         <div class="flex-between">
                             <span>Total Price</span>
-                            <span>BDT <span id="totalPrice">0</span></span>
+                            <span>BDT <span id="totalPrice">0</span></span>     
                         </div>
 
                         <div class="flex-between">
-                            <input type="text" placeholder="Have any coupon?" class="border-2">
-                            <button >Apply</button>
+                            <input id="couponNumber" type="text" placeholder="Have any coupon?" class="border-2">
+                            <button onclick="discountPrice()">Apply</button>
                         </div>
 
                         <div>
