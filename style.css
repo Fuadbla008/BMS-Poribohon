@@ -1,48 +1,55 @@
-.radius24{
+.radius24 {
     border-radius: 24px;
 }
 
-.padding-32{
+.padding-32 {
     padding: 32px;
 }
-.radius12{
+
+.radius12 {
     border-radius: 12px;
 }
-.block{
+
+.block {
     height: 56px;
     width: 110px;
-    border-radius: 12px ;
+    border-radius: 12px;
     background-color: #f7f8f8;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-.flex-between{
+
+.flex-between {
     display: flex;
     justify-content: space-between;
 }
-.fontsize{
+
+.fontsize {
     font-size: 20px;
 }
-.mygap{
+
+.mygap {
     margin-bottom: 50px;
 }
-.mybgash{
+
+.mybgash {
     background-color: #f7f8f8;
 }
-.click-div {
-      width: 200px;
-      height: 100px;
-      background-color: #3498db;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      transition: transform 0.1s ease, background-color 0.2s ease;
-    }
 
-    .click-div:active {
-      transform: scale(0.95);
-      background-color: #2980b9;
-    }
+.click-div {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.click-div:active {
+    transform: scale(0.95);
+    background-color: #2980b9;
+}
