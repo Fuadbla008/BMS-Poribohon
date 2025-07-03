@@ -4,6 +4,11 @@ let appendCount = 0;
 
 divs.forEach(div => {
     div.addEventListener('click', () => {
+        if (div.classList.contains('sel')) {
+            return; // Already selected, do nothing
+        }
+         div.classList.add('sel');
+
         const divvalue = div.innerHTML;
         // console.log(divvalue);
         setBgColorById(divvalue, '#1DD100')
@@ -42,5 +47,12 @@ function discountPrice() {
     else{
         alert('Invalid coupon code or not enough tickets selected for discount.');
     }
+
+}
+
+// submit button function
+function submitButton() {
+    const modalSection = document.querySelector('.modal-section');
+    modalSection.classList.remove('hidden');
 
 }
