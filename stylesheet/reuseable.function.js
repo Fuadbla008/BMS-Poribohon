@@ -1,4 +1,4 @@
-function setTextById(id, data){
+function setTextById(id, data) {
     const text = document.getElementById(id);
     text.innerText = data;
 }
@@ -8,7 +8,11 @@ function getInputValueById(id) {
     input.value = '';
     return value;
 }
-function setBgColorById(id, color){
+function setBgColorById(id, color) {
+    const element = document.getElementById(id);
+    element.style.backgroundColor = color;
+}
+function removeBgColorById(id, color) {
     const element = document.getElementById(id);
     element.style.backgroundColor = color;
 }
@@ -48,8 +52,31 @@ function totalPriceCalculate() {
     });
 }
 
+// function totalPriceCalculate() {
+//     const price = document.querySelectorAll('.appendPrice');
+//     let totalPrice = 0;
+//     price.forEach(price => {
+//         totalPrice += parseInt(price.innerText);
+
+//         const setTotalPrice = document.getElementById('totalPrice');
+//         setTotalPrice.innerText = totalPrice;
+//         const setGrandTotal = document.getElementById('grandTotal');
+//         setGrandTotal.innerText = totalPrice;
+//     });
+// }
+
+
 function elementById(id) {
     const element = document.getElementById(id)
     const value = parseInt(element.innerText);
     return value;
+}
+
+function removeLastChild(classList) {
+    const parent = document.getElementById("appendchild");
+    const children = parent.querySelectorAll(classList);
+    const lastChild = children[children.length - 1];
+    if (lastChild) {
+        lastChild.remove();
+    }
 }
