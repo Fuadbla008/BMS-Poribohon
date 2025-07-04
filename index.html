@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     <link rel="stylesheet" href="style.css">
     <title>BMS Poribohon</title>
 </head>
 
 <body>
-    <section class="container ">
+    <section class="container px-32 ">
         <!-- this is navber. start from here -->
-        <nav class="flex justify-between px-20 py-5">
-            <div class="w-1/3 bg-slate-400">
-                <h1 class="font-bold text-3xl w-auto">BMS Poribohon</h1>
+        <nav class="justifybetween py-5">
+            <div class="w-1/3">
+                <h1 class="font-bold text-2xl w-auto myrailfont">BMS Poribohon</h1>
             </div>
-            <div class="w-4/12 p-5 bg-slate-500">
-                <ul class="flex justify-between">
+            <div class="w-1/3 p-5 ">
+                <ul class="justifybetween">
                     <li>Home</li>
                     <li>About</li>
                     <li>Destination</li>
@@ -25,9 +28,9 @@
                 </ul>
             </div>
             <a href="#seatDetailsFullSection">
-                <div class="flex w-[130px] h-[56px] align-middle justify-center click-div ">
+                <div class=" btnborder w-[130px] h-[56px] radius12 gap-[10px] justifycenteer">
+                    <span>Bus</span>
                     <img src="./asset/image/bus-icon.png" alt="" class="">
-                    <span class="font-bold text-2xl">Bus</span>
                 </div>
             </a>
         </nav>
@@ -35,11 +38,11 @@
         <!-- section body. include banner and coupon offer -->
         <section>
             <!-- banner and popup -->
-            <div>
-                <div class="flex flex-col justify-center items-center ">
-                    <h1>End-To-End Travel </h1>
-                    <h1>BMS Poribohon</h1>
-                    <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing
+            <div class="justifycenteer flex-col">
+                <div class="justifycenteer flex-col fontsize myrailfont bannerimage">
+                    End-To-End Travel BMS Poribohon
+                    <p class="">Yes, you can run unit tests and view the results directly within the app. The integrated
+                        testing
                         feature for a streamlined.</p>
                     <button>Buy Tickets</button>
                 </div>
@@ -306,7 +309,8 @@
         </main>
     </section>
 
-    <section class=" hidden modal-section flex items-center justify-center bg-[#f2f1f1] h-full w-full fixed top-0 left-0 z-50 ">
+    <section
+        class=" hidden modal-section flex items-center justify-center bg-[#f2f1f1] h-full w-full fixed top-0 left-0 z-50 ">
         <div class="modal-content w-[718px] h-[418px] bg-white radius24 flex flex-col items-center justify-center">
             <img src="./asset/image/success.png" alt="">
             <h1 class="font-bold gap-5">Success</h1>
