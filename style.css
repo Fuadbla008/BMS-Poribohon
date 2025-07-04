@@ -17,6 +17,13 @@
     font-size: large;
     gap: 10px;
 }
+.btnroute {
+    padding: 10px 20px;
+    background-color: #ebeced;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
 .btnseeall {
     border: 1px solid #1DD100;
     padding: 15px 30px;
