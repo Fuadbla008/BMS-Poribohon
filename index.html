@@ -184,7 +184,7 @@
 
             <!-- this section is seat selector -->
             <section id="seatDetailsFullSection" class="seat-selector flex-between bg-[#ffffff] m-10">
-                <div class="left-select-seat w-1/2 p-16">
+                <div class="left-select-seat w-1/2 p-10 inter">
 
                     <div class="flex flex-col inter">
                         <h1 class="font-bold text-3xl  mb-5">Select Your seat</h1>
@@ -206,7 +206,7 @@
                     </div>
 
                     <!-- seat Button -->
-                    <div id="seatClickArea" style="display: grid; grid-template-columns: repeat(4, auto); gap: 10px;">
+                    <div id="seatClickArea" style="display: grid; grid-template-columns: repeat(4, auto); gap: 10px;" class="inter">
                         <!-- Row A -->
                         <div id="A1" class="block">A1</div>
                         <div id="A2" class="block">A2</div>
@@ -270,8 +270,8 @@
 
                 </div>
                 <!-- this section is selected area calculation and form -->
-                <div class="right-info-selected-seat w-1/2 p-16">
-                    <h1>Your seat details</h1>
+                <div class="right-info-selected-seat w-1/2 p-10 inter">
+                    <h1 class="font-bold text-3xl  mb-5">Your seat details</h1>
                     <div class="w-[433px] h-[836px]">
                         <div class="mybgash padding-32 radius24">
                             <div class="flex-between">
@@ -290,9 +290,9 @@
                                 <span>BDT <span id="totalPrice">0</span></span>
                             </div>
 
-                            <div class="flex-between">
-                                <input id="couponNumber" type="text" placeholder="Have any coupon?" class="border-2">
-                                <button onclick="discountPrice()">Apply</button>
+                            <div class="justifybetween p-3 radius12 bg-white">
+                                <input id="couponNumber" type="text" placeholder="Have any coupon?" class="">
+                                <button class="btnapply" onclick="discountPrice()">Apply</button>
                             </div>
 
                             <div>
@@ -300,15 +300,15 @@
                             </div>
                         </div>
                         <div>
-                            <form id="bookingForm">
+                            <form id="bookingForm " class="justifystart flex-col gap-5 mt-10">
                                 <label for="name">Passenger Name</label>
-                                <input type="text" id="name" name="name" placeholder="Enter full name" required>
+                                <input type="text" id="name" name="name" placeholder="Enter full name" >
 
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" >
 
                                 <label for="email">Email ID</label>
-                                <input type="email" id="email" name="email" placeholder="Enter email address" required>
+                                <input type="email" id="email" name="email" placeholder="Enter email address" >
 
                                 <button onclick=" submitButton()" type="submit">Next</button>
                             </form>

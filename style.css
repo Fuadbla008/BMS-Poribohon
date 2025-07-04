@@ -34,7 +34,23 @@
     font-weight: 700;
     font-size: large;
 }
-
+.btnbuy {
+    background-color: #1DD100;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btnapply {
+    background-color: #1DD100;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 .bannerimage{
     background-image: url(./asset/image/banner.png);
     height: 550px;
@@ -60,14 +76,7 @@
     text-align: center;
     margin-top: 10px;
 }
-.btnbuy {
-    background-color: #1DD100;
-    padding: 10px 20px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+
 .layoutcard {
     width: 308px;
     height: 138px;

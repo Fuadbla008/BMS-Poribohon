@@ -75,6 +75,12 @@
     align-items: center;
     justify-items: center;
 }
+.justifystart{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+}
 .justifybetween{
     display: flex;
     justify-content: space-between;
