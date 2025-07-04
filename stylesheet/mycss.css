@@ -4,6 +4,11 @@
 .poppins {
   font-family: "Poppins", sans-serif;
 }
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
 
 .radius24 {
     border-radius: 24px;
@@ -15,6 +20,9 @@
 
 .radius12 {
     border-radius: 12px;
+}
+.textash{
+    color: #9a7610;
 }
 
 .block {
@@ -72,15 +80,4 @@
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-}
-
-
-.btnborder {
-    border: 1px solid #1DD100;
-    padding: 10px 20px;
-    color: #1DD100;
-    background-color: #1DD10030;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s ease;
 }
