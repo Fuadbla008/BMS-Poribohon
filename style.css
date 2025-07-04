@@ -7,6 +7,26 @@
     cursor: pointer;
     transition: 0.3s ease;
 }
+.btnavailseat {
+    padding: 10px 20px;
+    color: #1DD100;
+    background-color: #1DD10030;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    font-size: large;
+    gap: 10px;
+}
+.btnseeall {
+    border: 1px solid #1DD100;
+    padding: 15px 30px;
+    color: #1DD100;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 700;
+    font-size: large;
+}
 
 .bannerimage{
     background-image: url(./asset/image/banner.png);

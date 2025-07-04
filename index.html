@@ -39,7 +39,7 @@
         </nav>
 
         <!-- section body. include banner and coupon offer -->
-        <section>
+        <section class="my-20">
             <!-- banner and popup -->
             <div class="justifycenteer flex-col">
                 <div class="bannerimage justifycenteer z-[-1]">
@@ -118,71 +118,72 @@
                     </div>
                 </div>
 
-                <button class="click-div radius24">See All Offers</button>
+                <button class="btnseeall inter">See All Offers</button>
             </div>
         </section>
 
         <!-- main section start -->
-        <main class="bg-[#f7f8f8] rounded-t-3xl">
-            <section class="calculateHeader flex flex-col items-center">
-                <h1 class="font-bold mt-10 text-4xl">BMS Poribohon</h1>
-                <p class="font-serif mt-3 text-lg">Yes, you can run unit tests and view the results directly within the
+        <main class="bg-[#f7f8f8] h-auto justifycenteer flex-col">
+            <section class=" justifycenteer flex-col gap-8 mb-8">
+                <h1 class="font-bold mt-10 text-4xl inter">BMS Poribohon</h1>
+                <p class="font-serif mt-3 text-lg inter w-[736px] text-center">Yes, you can run unit tests and view the results directly within the
                     app.
                     The integrated
                     testing features allow for a streamlined</p>
             </section>
 
             <!-- route, seat, and seat price include -->
-            <section class="seatDetails flex h-[418px] w-[1170px] bg-[#ffffff] radius24">
-                <div class="w-7/12 p-[32px]">
-                    <div class="detailsandseat flex justify-between">
+            <section class="seatDetails flex w-[1170px] h-[394px] bg-[#ffffff] radius24">
+                <div class="w-9/12 p-[32px]">
+                    <div class="detailsandseat justifybetween gap-5">
                         <div class="details flex p-5 gap-5">
                             <img src="./asset/image/bus-logo.png" alt="">
-                            <div class="">
-                                <h1>BMS Poribohon</h1>
-                                <p>B9A5 AC Buss</p>
+                            <div class="gap-8 flex-col">
+                                <h1 class="text-3xl font-bold">BMS Poribohon</h1>
+                                <p class="text-xl text-[#71737a]">B9A5 AC Buss</p>
                             </div>
                         </div>
-                        <div class="btnborder">
+                        <div class="btnavailseat justifycenteer ">
                             <img src="./asset/image/seat-green.png" alt="">
                             <span><span id="availableSeat">40</span> seat left</span>
                         </div>
                     </div>
-                    <div class="route-details bg-[#f7f8f8] padding-32 radius12">
-                        <div class="flex justify-between m-5">
+                    <div class="route-details bg-[#f7f8f8] p-4 radius12 inter">
+                        <div class="justifybetween m-5">
                             <p>Route</p>
                             <p>Rangpur-Dhaka</p>
                         </div>
                         <hr>
-                        <div class="flex justify-between m-5">
+                        <div class="justifybetween m-5">
                             <p>Departure Time</p>
                             <p>9:00 PM</p>
                         </div>
                         <hr>
-                        <div class="flex justify-between m-5">
+                        <div class="justifybetween m-5">
                             <div>Bording Point - Luxmipur</div>
                             <div>Dropping Point - Bogura</div>
                             <div>Est. Time - 11 Hour</div>
                         </div>
                     </div>
                 </div>
-                <div>
+
+                <div class="">
                     <img src="./asset/image/info-devider.png" alt="">
                 </div>
 
-                <div class="flex place-items-center">
-                    <div class="w-[133px] h-[155px]">
+                <div class="justifycenteer w-3/12">
+                    <div class="w-[133px] h-[155px] gap-6 justifycenteer flex-col">
                         <img src="./asset/image/fare.png" alt="">
                         <div>
-                            <h2>550 Taka</h2>
-                            <h4>Per Seat</h4>
+                            <h2 class="font-bold text-3xl text-center myrailfont">550 Taka</h2>
+                            <h4 class="text-center text-[#686a71] text-xl inter">Per Seat</h4>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- this section is seat selector -->
-            <section id="seatDetailsFullSection" class="seat-selector flex-between bg-[#ffffff]">
+            <section id="seatDetailsFullSection" class="seat-selector flex-between bg-[#ffffff] m-10">
                 <div class="left-select-seat w-1/2 p-16">
 
                     <div class="flex flex-col">
