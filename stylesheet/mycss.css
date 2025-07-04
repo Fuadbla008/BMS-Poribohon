@@ -1,7 +1,13 @@
+.myrailfont{
+    font-family: 'Raleway', sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
 .radius24 {
     border-radius: 24px;
 }
-
 
 .padding-32 {
     padding: 32px;
