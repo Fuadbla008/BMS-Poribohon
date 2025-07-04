@@ -51,6 +51,16 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.btnsubmit {
+    background-color: #1DD100;
+    padding: 5px 10px;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 .bannerimage{
     background-image: url(./asset/image/banner.png);
     height: 550px;
