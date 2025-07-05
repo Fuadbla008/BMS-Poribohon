@@ -68,7 +68,7 @@ function discountPrice() {
         setTextById('grandTotal', grandTotal);
     }
 
-    else if (inputValue === 'Couple20' && countTicket >= 2) {
+    else if (inputValue === 'Couple 20' && countTicket >= 2) {
         const totalPrice = elementById('totalPrice');
         const discount = totalPrice * 0.20;
         const grandTotal = totalPrice - discount;
