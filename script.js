@@ -13,7 +13,7 @@ divs.forEach(div => {
             const minusSeat = elementById('availableSeat');
             setTextById('availableSeat', minusSeat + 1);
             // Optional: remove from appended list if needed
-            removeLastChild('.flex-between');
+            removeLastChild('.flex-between'); // Assuming you want to remove the last appended child
 
             // minusTotalPrice();
         } else {
