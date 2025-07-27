@@ -28,6 +28,7 @@
     transition: 0.3s ease;
     font-weight: 400;
 }
+
 .btnseeall {
     border: 1px solid #1DD100;
     padding: 15px 30px;
@@ -38,6 +39,7 @@
     font-weight: 700;
     font-size: large;
 }
+
 .btnbuy {
     background-color: #1DD100;
     padding: 10px 20px;
